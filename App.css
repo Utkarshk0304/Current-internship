@@ -1,0 +1,16 @@
+.RightSideSection{
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+}
+.OnclickCards{
+  /* margin-left: 67%; */
+  background-color: white;
+  z-index: 1000;
+ 
+}
+html{
+  overflow-y:scroll;
+  
+}
+

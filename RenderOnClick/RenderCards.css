@@ -1,0 +1,81 @@
+.DisplayCards {
+    display: flex;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid rgb(216, 215, 215);
+    margin-bottom: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    border-radius: 5px;
+
+}
+.DisplayCards:hover{
+    cursor: pointer;
+    border: 1px solid rgb(173, 173, 173);
+    transition: 0.4s;
+}
+.bi-check2-square{
+    margin-left: 15px;
+    
+    color: rgb(1, 19, 2);
+    transition: 0.4s;
+
+}
+.RenderCardsP {
+   
+    font-size:larger;
+    font-weight: 500;
+    color: rgb(12, 12, 12);
+    margin-left: 15px;
+    margin-bottom: 30px;
+    color: rgb(54, 54, 54);
+   
+}
+
+.bi-plus-square-dotted {
+
+    margin-left: 15px;
+    /* margin-bottom: 30px; */
+    color: rgb(1, 19, 2);
+    transition: 0.4s;
+
+
+}
+
+#CardsImage {
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+}
+
+
+.ifSelected {
+    display: flex;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+    margin-bottom: 10px;
+   
+    background-color: white;
+    color: rgb(14, 13, 13);
+    border: 1px solid rgb(8, 8, 8);
+    
+    /* margin:-2px -2px -2px -2px; */
+    margin-left: 6%;
+    margin-right: 6%;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.bi-check2-square {
+    margin-left: 15px;
+    /* margin-top: 10px; */
+    color: black;
+    /* margin-bottom: px; */
+    transition: 0.4s;
+}

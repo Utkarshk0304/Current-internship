@@ -1,0 +1,23 @@
+.MainCarousel{
+    
+    width: 67%;
+    /* height: 100vh; */
+    position: fixed;
+    z-index:9999;
+  
+}
+.d-block{
+/* object-fit: cover; */
+object-fit:fill;
+max-height: 100%;
+width: 100%;
+
+}
+
+span{
+
+   margin-bottom: 600%;
+}
+.carousel-indicators{
+    margin-bottom: 100%;
+}
